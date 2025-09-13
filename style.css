@@ -254,16 +254,20 @@ p {
         margin: 0vw 3vw;
         margin-top: 3vw;
         align-items: center;
+        padding: 0;
     }
 
-    .search h3 {
+    .search p {
+        color: var(--dark-gray);
         padding: 0;
         margin: 0;
     }
 
     .search img {
-        padding: 3vw;
+        margin: 1vw 1vw 1vw 2vw;
+        padding: 1vw;
         vertical-align: middle;
+        width: 5%;
     }
 
     h3 {
@@ -293,7 +297,7 @@ p {
 
     .term .dropdown {
         margin: 2vw 2vw;
-        padding: 0.5vw 1vw;
+        padding: 0vw 1vw;
     }
 
     .search-filters {
@@ -307,6 +311,7 @@ p {
         flex-direction: column;
         padding: 1vw;
         margin: 0vw 3vw;
+        margin-bottom: 3vw;
     }
 
     .dropdown {
@@ -315,11 +320,12 @@ p {
         justify-content: space-between;
         border-radius: 10px;
         background: var(--light-gray);
-        margin: 2vw 2vw;
+        margin: 3vw 2vw;
         padding: 0;
     }
 
     .dropdown p {
+        margin: 1vw;
         padding: 0 3vw;
         font-size: clamp(0.9rem, 1.2vw, 1.4rem);
         flex-grow: 3;
@@ -330,7 +336,7 @@ p {
         flex-direction: row;
         border-radius: 12px;
         background: var(--navy);
-        padding: 1vw 3vw;
+        padding: 0vw 3vw;
         margin: 5vw 3vw;
         margin-bottom: 0vw;
         float: right;
@@ -374,6 +380,15 @@ p {
       border-radius: 4px;
       vertical-align: middle;
       margin-right: 8px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        margin: 0 0;
     }
 
     .blue-button-style {
