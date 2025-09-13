@@ -1,4 +1,4 @@
-# cis4120-assignment1
+# CIS 41420 Assignment 1 HTML/CSS Prototype
 
 ### Instructions for running code
 
