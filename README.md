@@ -5,3 +5,4 @@
 This HTML/CSS prototype has interactive elements, which include:
 - Checkboxes ("Exclude")
 - "Advanced Search Filters" can be hidden and expanded (they are hidden on default)
+- **Please adjust screen size to mobile in order for the page to display correctly!**
